@@ -14,4 +14,4 @@ O objetivo do projeto é automatizar teste em uma pagina WEB, escolhemos o site 
 
 2 - Esquecer senha 
 
-3 - Tentar fazer login
+3 - Tentar login em uma conta que não existe

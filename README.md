@@ -5,20 +5,20 @@ Repositorio visa colocar em pratica os conhecimentos adquiridos com cypress
  - Nathan Santos Ataliba 1663
  - Gabriel Henrique Guerzony 235 
 
-## Testes realizados no site:
+Como rodar o programa
+• Abrir o GIT Bash na pasta cypress/integration/teste_ui
 
-1 - Inserindo as informações para cadastro no site de forma correta, sem a resolução do captcha.
+• Executar o comando ./node_modules/.bin/cypress open
 
-2 - Inserindo as informações para o cadastro utilizando um email já cadastrado, gerando um erro no cadastro.
+• Clicar no código teste_ui/teste.spec.js
 
-3 - Inserindo as informações para o cadastro utilizando uma senha diferente no campo de confirme a sua senha, gerando um erro no cadastro.
+Como gerar o relatório
+• No terminal (utilizei no VS Code), utilizar o comando ./node_modules/.bin/cypress run --spec 'cypress/integration/teste_ui/**/'
 
-4 - Busca de um título no site, retornando qualquer obra que possua esse título em seu nome, podendo ser filme, série, documentário, entre outros.
+• Usar o comando npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator
 
-5 - Verificando se na aba de vencedores do oscar o título vencedor está com um emblema de vencedor, para isso foi necessário utilizar os menus do site.
+• Utilizar o comando ./node_modules/.bin/cypress run --spec 'cypress/integration/testes_ui/**/' novamente, para gerar o relatório.
 
-6 - Buscando apenas filmes com o gênero ação, para isso foi necessário ir na aba de buscar filmes por gênero e selecionar a opção do gênero ação.
+• Utilizar o comando npx mochawesome-merge "cypress/reports/*.json" > mochawesome.json para realizar o merge.
 
-## COMANDOS PARA UTILIZAR O CYPRESS:
-
-Para abrir o cypress, use o comando: ```./node_modules/.bin/cypress open```
+• Gerar um html com o comando npx marge mochawesome.json.

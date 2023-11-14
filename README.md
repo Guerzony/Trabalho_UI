@@ -5,13 +5,16 @@ Repositorio visa colocar em pratica os conhecimentos adquiridos com cypress
  - Nathan Santos Ataliba 1663
  - Gabriel Henrique Guerzony 235 
 
-# OBJETIVO:
-O objetivo do projeto é automatizar teste em uma pagina WEB, escolhemos o site https://www.facebook.com/?locale=pt_BR .
+## Testes realizados no site:
 
-# TESTES:
+1 - Inserindo as informações para cadastro no site de forma correta, sem a resolução do captcha.
 
-1 - Criar conta que ja existe 
+2 - Inserindo as informações para o cadastro utilizando um email já cadastrado, gerando um erro no cadastro.
 
-2 - Esquecer senha 
+3 - Inserindo as informações para o cadastro utilizando uma senha diferente no campo de confirme a sua senha, gerando um erro no cadastro.
 
-3 - Tentar login em uma conta que não existe
+4 - Busca de uma título no site, retornando qualquer obra que possua esse título em seu nome, podendo ser filme, série, documentário, entre outros.
+
+5 - Verificando se na aba de vencedores do oscar o título vencedor está com um emblema de vencedor, para isso foi necessário utilizar os menus do site.
+
+6 - Buscando apenas filmes com o gênero ação, para isso foi necessário ir na aba de buscar filmes por gênero e selecionar a opção do gênero ação.

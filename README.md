@@ -13,8 +13,12 @@ Repositorio visa colocar em pratica os conhecimentos adquiridos com cypress
 
 3 - Inserindo as informações para o cadastro utilizando uma senha diferente no campo de confirme a sua senha, gerando um erro no cadastro.
 
-4 - Busca de uma título no site, retornando qualquer obra que possua esse título em seu nome, podendo ser filme, série, documentário, entre outros.
+4 - Busca de um título no site, retornando qualquer obra que possua esse título em seu nome, podendo ser filme, série, documentário, entre outros.
 
 5 - Verificando se na aba de vencedores do oscar o título vencedor está com um emblema de vencedor, para isso foi necessário utilizar os menus do site.
 
 6 - Buscando apenas filmes com o gênero ação, para isso foi necessário ir na aba de buscar filmes por gênero e selecionar a opção do gênero ação.
+
+## COMANDOS PARA UTILIZAR O CYPRESS:
+
+Para abrir o cypress, use o comando: ```./node_modules/.bin/cypress open```
